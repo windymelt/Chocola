@@ -1,0 +1,13 @@
+(Chocola HTML writer on Scheme)
+
+*What is this?*
+This is a Scheme script for producing HTML with less coding.
+Haven't you felt tired when you write some stuff code with lots of work?
+If you so, This will suit for you.
+
+*How to use?*
+At first, You should have some skills of Scheme.
+For Next, Import libraries into your scripts.
+At last, Run it.
+
+author : Qwilas Windymelt
