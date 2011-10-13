@@ -11,7 +11,7 @@
 	"This page is written with " (a "Chocola"
 	"https://github.com/windymelt/chocola") "." (br)
 	(h2 "What is Chocola?")(br)
-	"Chocola is Scheme-based html vending machine." (br)
+	"Chocola is Scheme-based html bending machine." (br)
 	(h3 "Features")
 	(ul '("Written with Scheme" "So Smart" "So obvious"))
 )
