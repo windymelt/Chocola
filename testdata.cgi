@@ -1,7 +1,7 @@
 #!/usr/local/bin/gosh --
 (include "html.scm")
+(print (header))
 (print
-header
 (html
 (string-append
 (title "Chocola test page")

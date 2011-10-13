@@ -8,7 +8,7 @@
 "(define (" tagstring " string) (maketag \"" tagstring "\" '() string))")
  (lambda () (read))) (interaction-environment)))
 (define (makefunctagbylist list) (map makefunctag list))
-(define header "Content-Type: text/plain;\n")
+(define (header) "Content-Type: text/html;\n")
 (makefunctagbylist '("head" "title" "html" "body" "b" "p" "h1" "h2" "h3" "h4" "h5" "h6"))
 (define (br) (makeorphantag "/br"))
 (define (a string url) (maketag "a" `(("href" . ,url)) string))
